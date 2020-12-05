@@ -47,7 +47,7 @@ def create_dictionary(txt_file):
 def translate(sentence, dictionary):
   words = sentence.split()
   for word in words:
-    print(dictionary.get(word, word), " ", end="")
+print(dictionary.get(word, word), " ", end="")
 
 main()
 
